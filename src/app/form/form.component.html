@@ -1,0 +1,9 @@
+<p>Template driven form</p>
+<form (submit)="onsubmit($event)">
+    <label for="name">Name</label>
+    <input type="text" name="name" >
+    <label for="number">Number</label>
+    <input type="text" name="number">
+    <input type="text" name="res" [(ngModel)]="res1">
+    <input type="submit" value="submit">
+</form>
